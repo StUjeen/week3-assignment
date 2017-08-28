@@ -104,7 +104,7 @@ separator: " " (single space)
 dim(features): 561 x 2        
 
 # Data proceeding
-## 1. Load the datasets to working directory
+### 1. Load the datasets to working directory
 ## 2. Read X_test.txt and X_train.txt files to make a single dataset with 561 variables (listed in features.txt)
 ## 2.1 Read features.txt file to get and assigne variable names to dataset variables
 ## 3. Read subject_train.txt, subject_test.txt, y_train.txt and y_test.txt files to make a single dataset with 2 variables ("subject" and "label")
