@@ -40,15 +40,14 @@ this link above includes set of files which represents raw data to be prepeared 
 for purpose of this project datasets [4] and [6] are not used.
 the datasets represented as a set of txt files:
 
- [1] "../UCI HAR Dataset/activity_labels.txt"     - Links the class labels with their activity name.                      
- [2] "../UCI HAR Dataset/features.txt"            - List of all features used to describe datasets of X_test and X_train.   
- [3] "../UCI HAR Dataset/test/X_test.txt"         - Test data splitted by subjects and activities for each variable listed in [2].
- [4] "../UCI HAR Dataset/test/subject_test.txt    - Includes values of subjects whos measurements shown in [3].
- [5] "../UCI HAR Dataset/test/y_test.txt"         - Includes value of activity for each measurement line of [3].
- [6] "../UCI HAR Dataset/train/X_train.txt"       - Experimental data of measurements splitted by subjects and activities for each variable listed in [2].
-  
- [7] "../UCI HAR Dataset/train/subject_train.txt" - Includes values of subjects whos measurements shown in [6].
- [8] "../UCI HAR Dataset/train/y_train.txt"       - Includes value of activity for each measurement line of [3].
+ [1] "../UCI HAR Dataset/activity_labels.txt"     - Links the class labels with their activity name. 
+ [2] "../UCI HAR Dataset/features.txt"            - List of all features used to describe datasets of X_test and X_train. 
+ [3] "../UCI HAR Dataset/test/X_test.txt"         - Test data splitted by subjects and activities for each variable listed in [2]. 
+ [4] "../UCI HAR Dataset/test/subject_test.txt    - Includes values of subjects whos measurements shown in [3]. 
+ [5] "../UCI HAR Dataset/test/y_test.txt"         - Includes value of activity for each measurement line of [3]. 
+ [6] "../UCI HAR Dataset/train/X_train.txt"       - Experimental data of measurements splitted by subjects and activities for each variable listed in [2]. 
+ [7] "../UCI HAR Dataset/train/subject_train.txt" - Includes values of subjects whos measurements shown in [6]. 
+ [8] "../UCI HAR Dataset/train/y_train.txt"       - Includes value of activity for each measurement line of [3]. 
 
 additional files:
  [9] "../UCI HAR Dataset/features_info.txt" - description of the [2] content
