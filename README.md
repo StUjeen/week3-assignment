@@ -49,56 +49,56 @@ the datasets represented as a set of txt files:
 [7] "../UCI HAR Dataset/train/subject_train.txt" - Includes values of subjects whos measurements shown in [6]                  
 [8] "../UCI HAR Dataset/train/y_train.txt"       - Includes value of activity for each measurement line of [3]                  
 
-additional files:
+additional files:                  
 [9] "../UCI HAR Dataset/features_info.txt" - description of the [2] content                  
 [10] "../UCI HAR Dataset/README.txt" - description of other datasets content
 
 ## DATA TYPES
 
 ### X_test and X_train
-data format: fixed width format
-number of variables: 561
-column types: all data types for each variable is an positive or negative integer
-column width: 16 symbols 
-dim(X_test): 2948 x 561
-dim(X_train): 7353 x 561
+data format: fixed width format                  
+number of variables: 561                  
+column types: all data types for each variable is an positive or negative integer                  
+column width: 16 symbols                   
+dim(X_test): 2948 x 561                  
+dim(X_train): 7353 x 561                  
 
 ### subject_test and subject_train
-data format: fixed width format
-number of variables: 1
-column types: all data types for each variable is an numeric
-column width: 2 symbols 
-dim(subject_test): 2948 x 1
-dim(subject_train): 7353 x 1
+data format: fixed width format                  
+number of variables: 1                  
+column types: all data types for each variable is an numeric                  
+column width: 2 symbols                   
+dim(subject_test): 2948 x 1                  
+dim(subject_train): 7353 x 1                  
 
 ### y_test and y_train
-data format: fixed width format
-number of variables: 1
-column types: all data types for each variable is an numeric
-column width: 1 symbol
-dim(y_test): 2948 x 1
-dim(y_train): 7353 x 1
+data format: fixed width format                  
+number of variables: 1                  
+column types: all data types for each variable is an numeric                  
+column width: 1 symbol                  
+dim(y_test): 2948 x 1                  
+dim(y_train): 7353 x 1                  
 
 ### activity_labels
-data format: table in a text file
-number of variables: 2
-column types: 
-  - var1: numeric
-  - var2: string
-column width: 
-  - var1: 1 symbols
-  - var2: 18 symbols
-separator: " " (single space)
-dim(activity_labels): 6 x 2
+data format: table in a text file                  
+number of variables: 2                  
+column types:                   
+  - var1: numeric                  
+  - var2: string                  
+column width:                   
+  - var1: 1 symbols                  
+  - var2: 18 symbols                  
+separator: " " (single space)                  
+dim(activity_labels): 6 x 2                  
 
 ### features
-data format: table in a text file
-number of variables: 2
-column types: 
-  - var1: numeric
-  - var2: string
-column width: 
-  - var1: from 1 to 3 symbols
-  - var2: up to 36 symbols
-separator: " " (single space)
-dim(features): 561 x 2
+data format: table in a text file                  
+number of variables: 2                  
+column types:                   
+  - var1: numeric                  
+  - var2: string                  
+column width:                   
+  - var1: from 1 to 3 symbols                  
+  - var2: up to 36 symbols                  
+separator: " " (single space)                  
+dim(features): 561 x 2                  
