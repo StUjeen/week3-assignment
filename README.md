@@ -83,11 +83,11 @@ dim(y_train): 7353 x 1
 data format: table in a text file                  
 number of variables: 2                  
 column types:                   
-  - var1: numeric                  
-  - var2: string                  
+  var1: numeric                  
+  var2: string                  
 column width:                   
-  - var1: 1 symbols                  
-  - var2: 18 symbols                  
+  var1: 1 symbols                  
+  var2: 18 symbols                  
 separator: " " (single space)                  
 dim(activity_labels): 6 x 2                  
 
@@ -95,10 +95,10 @@ dim(activity_labels): 6 x 2
 data format: table in a text file                  
 number of variables: 2                  
 column types:                   
-  - var1: numeric                  
-  - var2: string                  
+  var1: numeric                  
+  var2: string                  
 column width:                   
-  - var1: from 1 to 3 symbols                  
-  - var2: up to 36 symbols                  
+  var1: from 1 to 3 symbols                  
+  var2: up to 36 symbols                  
 separator: " " (single space)                  
 dim(features): 561 x 2                  
