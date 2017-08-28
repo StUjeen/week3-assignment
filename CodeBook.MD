@@ -42,5 +42,6 @@ dset_gb <- group the dset_m by subject firstly, then by label_name and finally b
 ### 9. Aggregate the dataset by mean value of each variable per a subject's activities
 dset_res <- calculate mean value of each variable per subject's activities
 ### 10. Create a txt file with resulting dataset
+write.table(dset_res, paste(getwd(),"/res.txt", sep =""), row.names = F)
 
-The end.
+#The end.
