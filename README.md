@@ -20,7 +20,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-## sources
+## SOURCES
 ### full data and description
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
@@ -29,7 +29,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 this link above includes set of files which represents raw data to be prepeared for analysis.
 
-## raw data structure paths
+## PATHS
 [1] ".."                                       
 [2] "../UCI HAR Dataset"                       
 [3] "../UCI HAR Dataset/test"                  
@@ -39,12 +39,14 @@ this link above includes set of files which represents raw data to be prepeared 
 
 for purpose of this project datasets [4] and [6] are not used.
 the datasets represented as a set of txt files:
+
  [1] "../UCI HAR Dataset/activity_labels.txt"     - Links the class labels with their activity name.                      
  [2] "../UCI HAR Dataset/features.txt"            - List of all features used to describe datasets of X_test and X_train.   
  [3] "../UCI HAR Dataset/test/X_test.txt"         - Test data splitted by subjects and activities for each variable listed in [2]
  [4] "../UCI HAR Dataset/test/subject_test.txt    - Includes values of subjects whos measurements shown in [3]
  [5] "../UCI HAR Dataset/test/y_test.txt"         - Includes value of activity for each measurement line of [3]
  [6] "../UCI HAR Dataset/train/X_train.txt"       - Experimental data of measurements splitted by subjects and activities for each variable listed in [2]
+ 
  [7] "../UCI HAR Dataset/train/subject_train.txt" - Includes values of subjects whos measurements shown in [6]
  [8] "../UCI HAR Dataset/train/y_train.txt"       - Includes value of activity for each measurement line of [3]
 
@@ -52,7 +54,7 @@ additional files:
  [9] "../UCI HAR Dataset/features_info.txt" - description of the [2] content
 [10] "../UCI HAR Dataset/README.txt" - description of other datasets content
 
-## data types
+## DATA TYPES
 
 ### X_test and X_train
 data format: fixed width format
