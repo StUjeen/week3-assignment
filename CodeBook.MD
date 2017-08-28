@@ -1,5 +1,5 @@
 # Purpose of this document
-Hereunder the algorithm to proceeed data is described step by step
+Hereunder the code parameters are described step by step of proceeding the data
 
 # Data proceeding
 to compleate transformation next libraries are needed:
