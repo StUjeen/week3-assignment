@@ -116,7 +116,7 @@ dim(features): 561 x 2
 #### 7. Melt dataset to a long format table with keys "subject", "label_name" and with variable for each key entry. Varable column includes column names from the dataset
 
 # Prepare the data for analysis
-#### 7. Group the dataset firstly by subject then by activity name (label_name) and finaly by variable
-#### 8. Aggregate the dataset by mean value of each variable per a subject's activities
+#### 8. Group the dataset firstly by subject then by activity name (label_name) and finaly by variable
+#### 9. Aggregate the dataset by mean value of each variable per a subject's activities
 
 
