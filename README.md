@@ -101,4 +101,22 @@ column width:
   var1: from 1 to 3 symbols                  
   var2: up to 36 symbols                  
 separator: " " (single space)                  
-dim(features): 561 x 2                  
+dim(features): 561 x 2        
+
+# Data proceeding
+## 1. Load the datasets to working directory
+## 2. Read X_test.txt and X_train.txt files to make a single dataset with 561 variables (listed in features.txt)
+## 2.1 Read features.txt file to get and assigne variable names to dataset variables
+## 3. Read subject_train.txt, subject_test.txt, y_train.txt and y_test.txt files to make a single dataset with 2 variables ("subject" and "label")
+## 4. Join two datasets from 2 and 3 to a single dataset (bind by cols)
+## 5. Substitute label numbers with activitiy names from activity_labels.txt
+## 6. Select the only means and standard deviations columns from the dataset
+
+# Data tyding
+## 7. Melt dataset to a long format table with keys "subject", "label_name" and with variable for each key entry. Varable column includes column names from the dataset
+
+# Structure the data for analysis
+## 7. Group the dataset firstly by subject then by activity name (label_name) and finaly by variable
+## 8. Aggregate the dataset by mean value of each variable per a subject's activities
+
+
