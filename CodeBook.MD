@@ -2,7 +2,7 @@
 Hereunder the code parameters are described step by step of proceeding the data         
 
 # Data proceeding
-to compleate transformation next libraries are needed:         
+to complete transformation next libraries are needed:         
 library(dplyr)         
 library(reshape2)         
 ### 1. Load the datasets to working directory         
