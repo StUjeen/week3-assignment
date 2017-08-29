@@ -21,7 +21,7 @@ dset2 <- bind X datasets to a single dataset by rows "rbind()"
 ### 3. Read subject_train.txt, subject_test.txt, y_train.txt and y_test.txt files to make a single dataset with 2 variables ("subject" and "label")         
 flist1 <- get paths for subject and lable dtasets         
 dset <- read subjects and lables files to a list of datasets         
-dset3 <- bind X datasets to a single dataset by rows "rbind()"         
+dset3 <- bind subjects and labels datasets to a single dataset by rows "rbind()"         
 ### 4. Join two datasets from 2 and 3 to a single dataset (bind by cols)         
 dset <- bind X and subject\label datasets to a single dataframe by cols "cbind()"         
 ### 5. Substitute label numbers with activitiy names from activity_labels.txt         
