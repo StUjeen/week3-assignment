@@ -44,4 +44,4 @@ dset_res <- calculate mean value of each variable per subject's activities
 ### 10. Create a txt file with resulting dataset         
 write.table(dset_res, paste(getwd(),"/res.txt", sep =""), row.names = F)         
 
-#The end.         
+# The end.         
