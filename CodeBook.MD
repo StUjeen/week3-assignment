@@ -31,17 +31,17 @@ varnames <- create a vector of names to be extracted from dset
 dset1 <- extract subject, label_name, mean and std columns of dset         
 dset1 <- merge the dset1 with activity labels (activity)         
 
-# Data tyding
-### 7. Melt dataset to a long format table with keys "subject", "label_name" and with variable for each key entry. Varable column includes column names from the dataset
-dset3 <- coerce the dset1 to a dataframe table
-dset_m <- melt dset3 with key columns subject and label_names, melting of 561 variables to a long format table
+# Data tyding         
+### 7. Melt dataset to a long format table with keys "subject", "label_name" and with variable for each key entry. Varable column includes column names from the dataset         
+dset3 <- coerce the dset1 to a dataframe table         
+dset_m <- melt dset3 with key columns subject and label_names, melting of 561 variables to a long format table         
 
-# Prepare the data for analysis
-### 8. Group the dataset firstly by subject then by activity name (label_name) and finaly by variable
-dset_gb <- group the dset_m by subject firstly, then by label_name and finally by variable
-### 9. Aggregate the dataset by mean value of each variable per a subject's activities
-dset_res <- calculate mean value of each variable per subject's activities
-### 10. Create a txt file with resulting dataset
-write.table(dset_res, paste(getwd(),"/res.txt", sep =""), row.names = F)
+# Prepare the data for analysis         
+### 8. Group the dataset firstly by subject then by activity name (label_name) and finaly by variable         
+dset_gb <- group the dset_m by subject firstly, then by label_name and finally by variable         
+### 9. Aggregate the dataset by mean value of each variable per a subject's activities         
+dset_res <- calculate mean value of each variable per subject's activities         
+### 10. Create a txt file with resulting dataset         
+write.table(dset_res, paste(getwd(),"/res.txt", sep =""), row.names = F)         
 
-#The end.
+#The end.         
