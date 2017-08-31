@@ -123,37 +123,37 @@ dim(features): 561 x 2
 ## > dim(dset_res)
 [1] 15480     4
 
-## > head(dset_res)
-### A tibble: 6 x 4
-### Groups:   subject, label_name [1]
-  subject label_name            variable mean_value
-    <int>      <chr>              <fctr>      <dbl>
-1       1     LAYING tGravityAcc.std...Z -0.8523663
-2       1     LAYING tGravityAcc.std...Y -0.9077200
-3       1     LAYING tGravityAcc.mad...X -0.8992961
-4       1     LAYING tGravityAcc.mad...Y -0.9099388
-5       1     LAYING tGravityAcc.mad...Z -0.8549670
-6       1     LAYING tGravityAcc.max...X -0.2803737
- 
+## > head(dset_res)     
+### A tibble: 6 x 4     
+### Groups:   subject, label_name [1]     
+  subject label_name            variable mean_value                
+    <int>      <chr>              <fctr>      <dbl>                
+1       1     LAYING tGravityAcc.std...Z -0.8523663                
+2       1     LAYING tGravityAcc.std...Y -0.9077200                
+3       1     LAYING tGravityAcc.mad...X -0.8992961                
+4       1     LAYING tGravityAcc.mad...Y -0.9099388                
+5       1     LAYING tGravityAcc.mad...Z -0.8549670                
+6       1     LAYING tGravityAcc.max...X -0.2803737                
+                 
 ## > tail(dset_res)
 ### A tibble: 6 x 4
-### Groups:   subject, label_name [1]
-  subject       label_name               variable  mean_value
-    <int>            <chr>                 <fctr>       <dbl>
-1      30 WALKING_UPSTAIRS tBodyAcc.arCoeff...Y.2  0.21318246
-2      30 WALKING_UPSTAIRS      tBodyAcc.mean...Y -0.02533117
-3      30 WALKING_UPSTAIRS      tBodyAcc.mean...X  0.27141564
-4      30 WALKING_UPSTAIRS      tBodyAcc.mean...Z -0.12469749
-5      30 WALKING_UPSTAIRS       tBodyAcc.std...X -0.35050448
-6      30 WALKING_UPSTAIRS       tBodyAcc.std...Y -0.12731116
+### Groups:   subject, label_name [1]                
+  subject       label_name               variable  mean_value                
+    <int>            <chr>                 <fctr>       <dbl>                
+1      30 WALKING_UPSTAIRS tBodyAcc.arCoeff...Y.2  0.21318246                
+2      30 WALKING_UPSTAIRS      tBodyAcc.mean...Y -0.02533117                
+3      30 WALKING_UPSTAIRS      tBodyAcc.mean...X  0.27141564                
+4      30 WALKING_UPSTAIRS      tBodyAcc.mean...Z -0.12469749                
+5      30 WALKING_UPSTAIRS       tBodyAcc.std...X -0.35050448                
+6      30 WALKING_UPSTAIRS       tBodyAcc.std...Y -0.12731116                
   
-##  > summary(dset_res)
-    subject      label_name                       variable       mean_value     
- Min.   : 1.0   Length:15480       tGravityAcc.std...Z:  180   Min.   :-1.0000  
- 1st Qu.: 8.0   Class :character   tGravityAcc.std...Y:  180   1st Qu.:-0.7863  
- Median :15.5   Mode  :character   tGravityAcc.mad...X:  180   Median :-0.1591  
- Mean   :15.5                      tGravityAcc.mad...Y:  180   Mean   :-0.2243  
- 3rd Qu.:23.0                      tGravityAcc.mad...Z:  180   3rd Qu.: 0.1378  
- Max.   :30.0                      tGravityAcc.max...X:  180   Max.   : 0.9930  
-                                   (Other)            :14400 
+##  > summary(dset_res)                
+    subject      label_name                       variable       mean_value                     
+ Min.   : 1.0   Length:15480       tGravityAcc.std...Z:  180   Min.   :-1.0000                  
+ 1st Qu.: 8.0   Class :character   tGravityAcc.std...Y:  180   1st Qu.:-0.7863                  
+ Median :15.5   Mode  :character   tGravityAcc.mad...X:  180   Median :-0.1591                  
+ Mean   :15.5                      tGravityAcc.mad...Y:  180   Mean   :-0.2243                  
+ 3rd Qu.:23.0                      tGravityAcc.mad...Z:  180   3rd Qu.: 0.1378                  
+ Max.   :30.0                      tGravityAcc.max...X:  180   Max.   : 0.9930                  
+                                   (Other)            :14400                 
                                    
