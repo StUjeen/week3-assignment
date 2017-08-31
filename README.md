@@ -30,12 +30,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 this link above includes set of files which represents raw data to be prepeared for analysis.
 
 ## PATHS
-[1] ".."                                       
-[2] "../UCI HAR Dataset"                       
-[3] "../UCI HAR Dataset/test"                  
-[4] "../UCI HAR Dataset/test/Inertial Signals" 
-[5] "../UCI HAR Dataset/train"                 
-[6] "../UCI HAR Dataset/train/Inertial Signals"
+1 ".."                                       
+2 "../UCI HAR Dataset"                       
+3 "../UCI HAR Dataset/test"                  
+4 "../UCI HAR Dataset/test/Inertial Signals"                 
+5 "../UCI HAR Dataset/train"                 
+6 "../UCI HAR Dataset/train/Inertial Signals"
 
 for purpose of this project datasets [4] and [6] are not used.
 the datasets represented as a set of txt files:
