@@ -247,3 +247,6 @@ dim(features): 561 x 2
 85                  tBodyAcc.std...X                
 86                  tBodyAcc.std...Y                
 
+## > summary(dset_res$mean_value)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.                 
+-1.0000 -0.7863 -0.1591 -0.2243  0.1378  0.9930                 
