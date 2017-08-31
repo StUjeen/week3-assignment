@@ -2,7 +2,7 @@
 The Project goal is to structure raw data, calculate means and standard deviation for set of variables and present the results in tidy way. For purpuse the project to be done was used RStudio 1.0.143, Windows 10, Intel(R) Core(TM) Duo i7-5500U CPU 2.40 GHz, 8.00 GB
 
 # Introduction
-This file describes the data to be proceeded within the project.
+This file describes the data to be proceeded within the project and resulting tidy dataset.
 
 # Activities to work with datasets
 1. Create one R script called run_analysis.R that does the following.
