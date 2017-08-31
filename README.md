@@ -149,11 +149,11 @@ dim(features): 561 x 2
   
 ##  > summary(dset_res)                
     subject      label_name                       variable       mean_value                     
- Min.   : 1.0   Length:15480       tGravityAcc.std...Z:  180   Min.   :-1.0000                  
- 1st Qu.: 8.0   Class :character   tGravityAcc.std...Y:  180   1st Qu.:-0.7863                  
- Median :15.5   Mode  :character   tGravityAcc.mad...X:  180   Median :-0.1591                  
- Mean   :15.5                      tGravityAcc.mad...Y:  180   Mean   :-0.2243                  
- 3rd Qu.:23.0                      tGravityAcc.mad...Z:  180   3rd Qu.: 0.1378                  
- Max.   :30.0                      tGravityAcc.max...X:  180   Max.   : 0.9930                  
-                                   (Other)            :14400                 
+ Min.   : 1.0    Length:15480         tGravityAcc.std...Z:  180    Min.   :-1.0000                  
+ 1st Qu.: 8.0    Class :character     tGravityAcc.std...Y:  180    1st Qu.:-0.7863                  
+ Median :15.5    Mode  :character     tGravityAcc.mad...X:  180    Median :-0.1591                  
+ Mean   :15.5                         tGravityAcc.mad...Y:  180    Mean   :-0.2243                  
+ 3rd Qu.:23.0                         tGravityAcc.mad...Z:  180    3rd Qu.: 0.1378                  
+ Max.   :30.0                         tGravityAcc.max...X:  180    Max.   : 0.9930                  
+                                    (Other)            :14400                 
                                    
