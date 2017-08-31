@@ -159,34 +159,34 @@ dim(features): 561 x 2
               2580               2580               2580               2580               2580               2580               
               
 ## > unique(factor(dset_res$variable))
- [1] tGravityAcc.std...Z           tGravityAcc.std...Y           tGravityAcc.mad...X                        
- [4] tGravityAcc.mad...Y           tGravityAcc.mad...Z           tGravityAcc.max...X                        
- [7] tGravityAcc.max...Y           tGravityAcc.max...Z           tGravityAcc.correlation...X.Z              
-[10] tGravityAcc.correlation...Y.Z tBodyAccJerk.mean...X         tBodyAccJerk.mean...Y                      
-[13] tBodyAccJerk.mean...Z         tBodyAccJerk.std...X          tGravityAcc.min...X                        
-[16] tGravityAcc.min...Y           tGravityAcc.min...Z           tGravityAcc.sma..                          
-[19] tGravityAcc.energy...X        tGravityAcc.energy...Y        tGravityAcc.entropy...X                    
-[22] tGravityAcc.entropy...Y       tGravityAcc.entropy...Z       tGravityAcc.arCoeff...X.1                  
-[25] tGravityAcc.arCoeff...X.2     tGravityAcc.arCoeff...X.3     tGravityAcc.arCoeff...X.4                  
-[28] tGravityAcc.arCoeff...Y.1     tGravityAcc.arCoeff...Y.2     tGravityAcc.arCoeff...Y.3                  
-[31] tGravityAcc.arCoeff...Y.4     tGravityAcc.arCoeff...Z.1     tGravityAcc.iqr...Y                        
-[34] tGravityAcc.iqr...Z           tBodyAccJerk.std...Y          tBodyAccJerk.std...Z                       
-[37] tGravityAcc.energy...Z        tGravityAcc.iqr...X           tGravityAcc.arCoeff...Z.4                  
-[40] tGravityAcc.correlation...X.Y tGravityAcc.arCoeff...Z.2     tGravityAcc.arCoeff...Z.3                  
-[43] tBodyAcc.std...Z              tBodyAcc.mad...X              tBodyAcc.mad...Y                           
-[46] tBodyAcc.max...Z              tBodyAcc.min...X              tBodyAcc.min...Y                           
-[49] tBodyAcc.mad...Z              tBodyAcc.max...X              tBodyAcc.max...Y                                         
-[52] tBodyAcc.min...Z              tBodyAcc.sma..                tBodyAcc.energy...X                        
-[55] tBodyAcc.iqr...Y              tBodyAcc.iqr...Z              tBodyAcc.entropy...X                       
-[58] tBodyAcc.energy...Y           tBodyAcc.energy...Z           tBodyAcc.iqr...X                           
-[61] tBodyAcc.arCoeff...Z.3        tBodyAcc.arCoeff...Z.4        tBodyAcc.correlation...X.Y                 
-[64] tGravityAcc.mean...Y          tGravityAcc.mean...Z          tGravityAcc.std...X                        
-[67] tBodyAcc.correlation...X.Z    tBodyAcc.correlation...Y.Z    tGravityAcc.mean...X                       
-[70] tBodyAcc.entropy...Y          tBodyAcc.arCoeff...X.1        tBodyAcc.entropy...Z                       
-[73] tBodyAcc.arCoeff...X.2        tBodyAcc.arCoeff...X.4        tBodyAcc.arCoeff...X.3                     
-[76] tBodyAcc.arCoeff...Y.4        tBodyAcc.arCoeff...Z.2        tBodyAcc.arCoeff...Z.1                     
-[79] tBodyAcc.arCoeff...Y.1        tBodyAcc.arCoeff...Y.3        tBodyAcc.arCoeff...Y.2                     
-[82] tBodyAcc.mean...Y             tBodyAcc.mean...X             tBodyAcc.mean...Z                          
-[85] tBodyAcc.std...X              tBodyAcc.std...Y                           
+ [1] tGravityAcc.std...Z                         tGravityAcc.std...Y           tGravityAcc.mad...X                        
+ [4] tGravityAcc.mad...Y                         tGravityAcc.mad...Z           tGravityAcc.max...X                        
+ [7] tGravityAcc.max...Y                         tGravityAcc.max...Z           tGravityAcc.correlation...X.Z              
+[10] tGravityAcc.correlation...Y.Z               tBodyAccJerk.mean...X         tBodyAccJerk.mean...Y                      
+[13] tBodyAccJerk.mean...Z                       tBodyAccJerk.std...X          tGravityAcc.min...X                        
+[16] tGravityAcc.min...Y                         tGravityAcc.min...Z           tGravityAcc.sma..                          
+[19] tGravityAcc.energy...X                      tGravityAcc.energy...Y        tGravityAcc.entropy...X                    
+[22] tGravityAcc.entropy...Y                     tGravityAcc.entropy...Z       tGravityAcc.arCoeff...X.1                  
+[25] tGravityAcc.arCoeff...X.2                   tGravityAcc.arCoeff...X.3     tGravityAcc.arCoeff...X.4                  
+[28] tGravityAcc.arCoeff...Y.1                   tGravityAcc.arCoeff...Y.2     tGravityAcc.arCoeff...Y.3                  
+[31] tGravityAcc.arCoeff...Y.4                   tGravityAcc.arCoeff...Z.1     tGravityAcc.iqr...Y                        
+[34] tGravityAcc.iqr...Z                         tBodyAccJerk.std...Y          tBodyAccJerk.std...Z                       
+[37] tGravityAcc.energy...Z                      tGravityAcc.iqr...X           tGravityAcc.arCoeff...Z.4                  
+[40] tGravityAcc.correlation...X.Y               tGravityAcc.arCoeff...Z.2     tGravityAcc.arCoeff...Z.3                  
+[43] tBodyAcc.std...Z                            tBodyAcc.mad...X              tBodyAcc.mad...Y                           
+[46] tBodyAcc.max...Z                            tBodyAcc.min...X              tBodyAcc.min...Y                           
+[49] tBodyAcc.mad...Z                            tBodyAcc.max...X              tBodyAcc.max...Y                                         
+[52] tBodyAcc.min...Z                            tBodyAcc.sma..                tBodyAcc.energy...X                        
+[55] tBodyAcc.iqr...Y                            tBodyAcc.iqr...Z              tBodyAcc.entropy...X                       
+[58] tBodyAcc.energy...Y                         tBodyAcc.energy...Z           tBodyAcc.iqr...X                           
+[61] tBodyAcc.arCoeff...Z.3                      tBodyAcc.arCoeff...Z.4        tBodyAcc.correlation...X.Y                 
+[64] tGravityAcc.mean...Y                        tGravityAcc.mean...Z          tGravityAcc.std...X                        
+[67] tBodyAcc.correlation...X.Z                  tBodyAcc.correlation...Y.Z    tGravityAcc.mean...X                       
+[70] tBodyAcc.entropy...Y                        tBodyAcc.arCoeff...X.1        tBodyAcc.entropy...Z                       
+[73] tBodyAcc.arCoeff...X.2                      tBodyAcc.arCoeff...X.4        tBodyAcc.arCoeff...X.3                     
+[76] tBodyAcc.arCoeff...Y.4                      tBodyAcc.arCoeff...Z.2        tBodyAcc.arCoeff...Z.1                     
+[79] tBodyAcc.arCoeff...Y.1                      tBodyAcc.arCoeff...Y.3        tBodyAcc.arCoeff...Y.2                     
+[82] tBodyAcc.mean...Y                           tBodyAcc.mean...X             tBodyAcc.mean...Z                          
+[85] tBodyAcc.std...X                            tBodyAcc.std...Y                           
 86 Levels: tGravityAcc.std...Z tGravityAcc.std...Y tGravityAcc.mad...X tGravityAcc.mad...Y ... tBodyAcc.std...Y              
 
